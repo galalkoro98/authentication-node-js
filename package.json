@@ -1,0 +1,30 @@
+{
+  "name": "authentication-node",
+  "version": "1.0.0",
+  "description": "Authentication is the process of verifying a user's identification through the acquisition of credentials and using those credentials to confirm the user's identity. The authorization process begins if the credentials are legitimate",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js",
+    "devStart2": "nodemon server2.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/galalkoro98/authentication-node-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/galalkoro98/authentication-node-js/issues"
+  },
+  "homepage": "https://github.com/galalkoro98/authentication-node-js#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
