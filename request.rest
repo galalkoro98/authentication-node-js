@@ -1,0 +1,15 @@
+GET http://localhost:8000/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NzM3MzM2MDR9.0cUf3qvn4eNvF_fieMnNx2JP3vw09voT5kMnVXiCQZ4
+###
+
+# Create a new post
+
+POST http://localhost:8000/login
+
+Content-Type: application/json
+
+{
+
+"username": "galal981"
+
+}
